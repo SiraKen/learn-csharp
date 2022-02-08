@@ -64,6 +64,12 @@ namespace learn_csharp
             {
                 Console.WriteLine(i);
             }
+            // class
+            Console.WriteLine("-class---------");
+            var User = new User();
+            User.ShowInfo();
+            User.setInfo("Francis", 18);
+            User.ShowInfo();
         }
 
         // returns int
