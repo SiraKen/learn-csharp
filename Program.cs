@@ -36,6 +36,34 @@ namespace learn_csharp
                 else if (i % 5 == 0) Console.WriteLine("Buzz");
                 else Console.WriteLine(i);
             }
+            // array 1
+            Console.WriteLine("-array-1-------");
+            double[] d1 = new double[3];
+            d1[0] = 1.2;
+            d1[1] = 3.7;
+            d1[2] = 4.1;
+            double sum1 = 0;
+            for (int i = 0; i < d1.Length; i++)
+            {
+                sum1 += d1[i];
+            }
+            Console.WriteLine(sum1);
+            // array 2
+            Console.WriteLine("-array-2-------");
+            double[] d2 = { 1.2, 2.3, 3.4, 4.5, 5.6 };
+            double sum2 = 0;
+            for (int i = 0; i < d2.Length; i++)
+            {
+                sum2 += d2[i];
+            }
+            Console.WriteLine(sum2);
+            // foreach
+            Console.WriteLine("-foreach-------");
+            int[] d3 = { 1, 2, 3, 4, 5 };
+            foreach (int i in d3)
+            {
+                Console.WriteLine(i);
+            }
         }
 
         // returns int
